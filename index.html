@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/pc.css" />
+    <link rel="stylesheet" href="css/tablet.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+KR:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/gsap.js"></script>
+  </head>
+  <body>
+    <ul id="navi" class="mobile">
+      <li class="on"></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+    <header class="mobile">
+      <h1>
+        <a href="index.html"><img src="img/logo-black.png" /></a>
+      </h1>
+      <ul>
+        <li></li>
+        <li>
+          <a href="javascript:;">Logo</a>
+          <div class="pick"></div>
+        </li>
+        <li>
+          <a href="javascript:;">About Me</a>
+          <div class="pick"></div>
+        </li>
+        <li>
+          <a href="javascript:;">Portfolio</a>
+          <div class="pick"></div>
+        </li>
+        <li>
+          <a href="javascript:;">Java&React</a>
+          <div class="pick"></div>
+        </li>
+        <li>
+          <a href="javascript:;">Illustration</a>
+          <div class="pick"></div>
+        </li>
+        <li>
+          <a href="javascript:;">Contact</a>
+          <div class="pick"></div>
+        </li>
+      </ul>
+    </header>
+    <div id="container">
+      <section id="con1">
+        <div class="roll rollUp">
+          <span>Motivate ME, Motivate US</span
+          ><span>Motivate ME, Motivate US</span
+          ><span>Motivate ME, Motivate US</span
+          ><span>Motivate ME, Motivate US</span
+          ><span>Motivate ME, Motivate US</span
+          ><span>Motivate ME, Motivate US</span
+          ><span>Motivate ME, Motivate US</span
+          ><span>Motivate ME, Motivate US</span>
+          <span>Motivate ME, Motivate US</span
+          ><span>Motivate ME, Motivate US</span
+          ><span>Motivate ME, Motivate US</span
+          ><span>Motivate ME, Motivate US</span
+          ><span>Motivate ME, Motivate US</span
+          ><span>Motivate ME, Motivate US</span
+          ><span>Motivate ME, Motivate US</span
+          ><span>Motivate ME, Motivate US</span>
+        </div>
+        <ul class="logo">
+          <li>M</li>
+          <li class="usLogo usLogo1">U</li>
+          <li class="usLogo usLogo1">S</li>
+          <li>E</li>
+        </ul>
+        <div class="logoLine">MUSE</div>
+        <div class="roll rollDown">
+          <span>Motivate ME, Motivate US</span
+          ><span>Motivate ME, Motivate US</span
+          ><span>Motivate ME, Motivate US</span
+          ><span>Motivate ME, Motivate US</span
+          ><span>Motivate ME, Motivate US</span
+          ><span>Motivate ME, Motivate US</span
+          ><span>Motivate ME, Motivate US</span
+          ><span>Motivate ME, Motivate US</span>
+          <span>Motivate ME, Motivate US</span
+          ><span>Motivate ME, Motivate US</span
+          ><span>Motivate ME, Motivate US</span
+          ><span>Motivate ME, Motivate US</span
+          ><span>Motivate ME, Motivate US</span
+          ><span>Motivate ME, Motivate US</span
+          ><span>Motivate ME, Motivate US</span
+          ><span>Motivate ME, Motivate US</span>
+        </div>
+        <div class="ring"></div>
+      </section>
+      <section id="con2">
+        <div class="con2wrap">
+          <ul class="popLogo">
+            <li><img src="img/logo-black.jpg" /></li>
+            <li class="tablet">
+              <img src="img/logo-blue.JPG" />
+            </li>
+            <li class="tablet">
+              <img src="img/logo-reverse.jpg" />
+            </li>
+          </ul>
+          <div class="con2right">
+            <div class="logowrap">
+              <div class="dicWord">muse</div>
+              <div class="dicMean">
+                1. <span class="noun">명사</span> (작가·화가 등에게 영감을 주는)
+                <span class="muse">뮤즈</span>
+                <span class="mobile">(=inspiration)</span>
+              </div>
+              <p class="exp1">
+                뮤즈는 그리스 신화에 등장하는 음악과 시를 관장하는 아홉 명의
+                여신들로,<br />예술가들의 예술 활동에 영감을 주고 공연과 창조의
+                과정을 떠올릴 수 있도록 돕는 역할을 합니다.
+              </p>
+              <p class="exp2">
+                뮤즈처럼 영감을 주고 고무하는 사람이 되고자 메인 로고를 뮤즈
+                MUSE 로 설정했습니다.
+              </p>
+              <h3>단순히 홈페이지를 제작하는 데 그치지 않고,</h3>
+              <h2>
+                <span class="highlight">기업에 영감을 불어넣는 인재</span>가
+                되겠습니다.
+              </h2>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="con3">
+        <div class="wrapMo">
+          <div class="tag">
+            <div class="tagOrange">#웹디자이너</div>
+            <div class="tagWhite">#웹퍼블리셔</div>
+          </div>
+          <img class="selfi" src="img/self.jpg" />
+          <div class="introduce">
+            <div>
+              <span class="name">NAME</span>김나연<span class="date">DATE</span
+              >2001.03.16
+            </div>
+            <div class="major">
+              <span class="career">CAREER</span>
+              <div>
+                <div>
+                  <span class="majorDate">2020.02</span> 장기고등학교 졸업
+                </div>
+                <div>
+                  <span class="majorDate">2020.03</span> 한신대학교 문예창작학과
+                  입학
+                </div>
+                <div>
+                  <span class="majorDate">2022.03</span>
+                  한국외국어대학교(글)<br />
+                  <span class="left"></span>독일어통번역학과 편입학
+                </div>
+                <div>
+                  <span class="majorDate">2023.02</span> TOEIC 895점 취득
+                </div>
+                <div>
+                  <span class="majorDate">2024.09</span> FLEX 독일어 675점 취득
+                </div>
+                <div><span class="majorDate">2024.09</span> GTQ 1급 취득</div>
+                <div>
+                  <span class="majorDate">2024.12</span>
+                  웹디자인기능사 자격증 취득
+                </div>
+                <div>
+                  <span class="majorDate">2025.02</span> 한국외국어대학교(글)
+                  졸업예정
+                </div>
+                <br />
+              </div>
+            </div>
+          </div>
+          <div class="statusWrap">
+            <ul class="status status1">
+              <li>
+                <ul class="html">
+                  <li><img src="img/icon1.png" /></li>
+                  <li>
+                    <div class="statusBar">
+                      <div class="statusline1"></div>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <ul class="js">
+                  <li><img src="img/icon22.png" /></li>
+                  <li>
+                    <div class="statusBar"><div class="statusline2"></div></div>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <ul class="Ps">
+                  <li><img src="img/icon3.png" /></li>
+                  <li>
+                    <div class="statusBar"><div class="statusline3"></div></div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="status">
+              <li>
+                <ul class="css">
+                  <li><img src="img/icon4.png" /></li>
+                  <li>
+                    <div class="statusBar"><div class="statusline4"></div></div>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <ul class="jQ">
+                  <li><img src="img/icon5.png" /></li>
+                  <li>
+                    <div class="statusBar"><div class="statusline5"></div></div>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <ul class="Ai">
+                  <li><img src="img/icon6.png" /></li>
+                  <li>
+                    <div class="statusBar"><div class="statusline6"></div></div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="wrap">
+          <div class="con3Top">
+            <div class="tag">
+              <div class="tagOrange">#웹디자이너</div>
+              <div class="tagWhite">#웹퍼블리셔</div>
+            </div>
+          </div>
+          <ul class="myself">
+            <li><img class="selfi" src="img/self2.png" /></li>
+            <li class="introduce">
+              <div>
+                <span class="name">NAME</span>김나연<span class="date"
+                  >DATE</span
+                >2001.03.16
+              </div>
+              <div class="major">
+                <span class="career">CAREER</span>
+                <div>
+                  <div>
+                    <span class="majorDate">2020.02</span> 장기고등학교 졸업
+                  </div>
+                  <div>
+                    <span class="majorDate">2020.03</span> 한신대학교
+                    문예창작학과 입학
+                  </div>
+                  <div>
+                    <span class="majorDate">2022.03</span> 한국외국어대학교(글)
+                    독일어통번역학과 편입
+                  </div>
+                  <div>
+                    <span class="majorDate">2023.02</span> TOEIC 895점 취득
+                  </div>
+                  <div>
+                    <span class="majorDate">2024.09</span> FLEX 독일어 675점
+                    취득
+                  </div>
+                  <div><span class="majorDate">2024.09</span> GTQ 1급 취득</div>
+                  <div>
+                    <span class="majorDate">2024.12</span>
+                    웹디자인기능사 자격증 취득
+                  </div>
+                  <div>
+                    <span class="majorDate">2025.02</span> 한국외국어대학교(글)
+                    졸업예정
+                  </div>
+                  <br />
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="statusWrap">
+            <ul class="status status1">
+              <li>
+                <ul class="html">
+                  <li><img src="img/icon1.png" /></li>
+                  <li>
+                    <div class="statusBar"><div class="statusline"></div></div>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <ul class="js">
+                  <li><img src="img/icon22.png" /></li>
+                  <li>
+                    <div class="statusBar"><div></div></div>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <ul class="Ps">
+                  <li><img src="img/icon3.png" /></li>
+                  <li>
+                    <div class="statusBar"><div class="statusline"></div></div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="status">
+              <li>
+                <ul class="css">
+                  <li><img src="img/icon4.png" /></li>
+                  <li>
+                    <div class="statusBar"><div class="statusline"></div></div>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <ul class="jQ">
+                  <li><img src="img/icon5.png" /></li>
+                  <li>
+                    <div class="statusBar"><div class="statusline"></div></div>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <ul class="Ai">
+                  <li><img src="img/icon6.png" /></li>
+                  <li>
+                    <div class="statusBar"><div class="statusline"></div></div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="con4">
+        <div class="moveBtn">
+          <div class="prev"><i class="fa-regular fa-circle-left"></i></div>
+          <div class="next"><i class="fa-regular fa-circle-right"></i></div>
+        </div>
+        <ul class="mockupWrap">
+          <li class="project project1">
+            <h2>PORTFOLIO</h2>
+            <ul class="portTitle1">
+              <li class="tagOrange"># 웹디자인</li>
+              <li class="tagOrange"># 퍼블리싱</li>
+            </ul>
+            <ul class="mockup">
+              <li class="mobile">
+                <div class="tagWhite"># 홈페이지 리뉴얼</div>
+                <h3>TGI Fridays</h3>
+                <h4>
+                  TGIF의 시그니처 문양인 스트라이프와<br />식욕을 돋구는 빨간
+                  색상을 이용해 패밀리<br />레스토랑이라는 특성에 맞는 다양한
+                  이미지와<br />레이아웃으로 사용자의 방문 의사를 유도합니다.
+                </h4>
+                <div class="detail">
+                  <p><span>TYPE</span>반응형 (PC/태블릿/모바일)</p>
+                  <p><span>TOOLS</span>Photoshop, HTML, CSS, jQuery</p>
+                  <p><span>FONT</span>BEBAS NEUE</p>
+                  <div class="color">
+                    <span>COLOR</span>
+                    <ul class="colorchart">
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <img src="img/Mockup_TGIF.png" />
+                <div class="mockup_info">
+                  <div class="tagBlue">
+                    <a href="https://nakim707.github.io/TGIF/">WEB SITE</a>
+                  </div>
+                  <div class="tagBlack">
+                    <a
+                      href="https://drive.google.com/file/d/1fB70u9-GyXv006bJG0WhJA9AR633unKm/view?usp=sharing"
+                      >기획안</a
+                    >
+                  </div>
+                </div>
+              </li>
+              <li class="con4Wrap">
+                <div class="tagWhite"># 홈페이지 리뉴얼</div>
+                <h3>TGI Fridays</h3>
+                <h4>
+                  TGIF의 시그니처 문양인 스트라이프와<br />식욕을 돋구는 빨간
+                  색상을 이용해 패밀리<br />레스토랑이라는 특성에 맞는 다양한
+                  이미지와<br />레이아웃으로 사용자의 방문 의사를 유도합니다.
+                </h4>
+                <div class="detail">
+                  <p><span>TYPE</span>반응형 (PC/태블릿/모바일)</p>
+                  <p><span>TOOLS</span>Photoshop, HTML, CSS, jQuery</p>
+                  <p><span>FONT</span>BEBAS NEUE</p>
+                  <div class="color">
+                    <span>COLOR</span>
+                    <ul class="colorchart">
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="project project2">
+            <h2>PORTFOLIO</h2>
+            <ul class="portTitle1">
+              <li class="tagOrange"># 웹디자인</li>
+              <li class="tagOrange"># 퍼블리싱</li>
+            </ul>
+            <ul class="mockup">
+              <li class="mobile">
+                <div class="tagWhite"># 팀 프로젝트</div>
+                <h3>국립중앙박물관</h3>
+                <h4>
+                  공공기관 사이트 특유의 깔끔하지만 지루한<br />레이아웃을
+                  현대적으로 리뉴얼하고 접근성을<br />편리하게 하는 데 중점을
+                  두어 제작했습니다.
+                </h4>
+                <div class="detail">
+                  <p><span>TYPE</span>반응형 (PC/태블릿/모바일)</p>
+                  <p><span>TOOLS</span>Photoshop, HTML, CSS, jQuery</p>
+                  <p><span>FONT</span>박물관문화재단클래식, 나눔스퀘어</p>
+                  <div class="color">
+                    <span>COLOR</span>
+                    <ul class="colorchart">
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <img src="img/mockup_museum.png" />
+                <div class="mockup_info">
+                  <div class="tagBlue">
+                    <a href="javascript:'">WEB SITE</a>
+                  </div>
+                  <div class="tagBlack">
+                    <a href="javascript:'">기획안</a>
+                  </div>
+                </div>
+              </li>
+              <li class="con4Wrap">
+                <div class="tagWhite"># 홈페이지 리뉴얼</div>
+                <h3>국립중앙박물관</h3>
+                <h4>
+                  공공기관 사이트 특유의 깔끔하지만 지루한<br />레이아웃을
+                  현대적으로 리뉴얼하고 접근성을<br />편리하게 하는 데 중점을
+                  두어 제작했습니다.
+                </h4>
+                <div class="detail">
+                  <p><span>TYPE</span>반응형</p>
+                  <p><span>TOOLS</span>Photoshop, HTML, CSS, jQuery</p>
+                  <p><span>FONT</span>박물관문화재단클래식, 나눔스퀘어</p>
+                  <div class="color">
+                    <span>COLOR</span>
+                    <ul class="colorchart">
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section id="con5">
+        <div class="inner">
+          <ul class="con5Box">
+            <li class="box1 upBox">
+              <img src="img/javaMock_1.png" />
+              <div class="tagBlue">
+                <a href="https://nakim707.github.io/numberGame/">WEB SITE</a>
+              </div>
+            </li>
+            <li class="box2 upBox">
+              <img src="img/javaMock_2.png" />
+              <div class="tagBlue">
+                <a href="https://nakim707.github.io/todolist/">WEB SITE</a>
+              </div>
+            </li>
+            <li class="box3 upBox">
+              <img src="img/javaMock_3.png" />
+              <div class="tagBlue">
+                <a href="https://nakim707.github.io/weatherApi/">WEB SITE</a>
+              </div>
+            </li>
+            <li class="box4 upBox">
+              <img src="img/javaMock_4.png" />
+              <div class="tagBlue">
+                <a href="nakim707.github.io">WEB SITE</a>
+              </div>
+            </li>
+            <li class="box5 upBox"></li>
+          </ul>
+          <div class="textBox">
+            <h2>JavaScript/React</h2>
+            <ul class="mobile">
+              <li><i class="fa-regular fa-heart"></i> 숫자맞히기 게임</li>
+              <li><i class="fa-regular fa-heart"></i> 투두리스트</li>
+              <li><i class="fa-regular fa-heart"></i> 일기예보 확인</li>
+              <li><i class="fa-regular fa-heart"></i> 쇼핑몰 페이지</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="con6">
+        <div class="tagOrange"># 일러스트</div>
+        <ul class="illust">
+          <li>
+            <div class="imgBox">
+              <img src="img/illust1.jpg" />
+            </div>
+          </li>
+          <li>
+            <div class="imgBox">
+              <img src="img/illust2.jpg" />
+            </div>
+          </li>
+          <li>
+            <div class="imgBox">
+              <img src="img/illust3.jpg" />
+            </div>
+          </li>
+          <li>
+            <div class="imgBox">
+              <img src="img/illust4.jpg" />
+            </div>
+          </li>
+          <li>
+            <div class="imgBox">
+              <img src="img/illust5.jpg" />
+            </div>
+          </li>
+          <li>
+            <div class="imgBox">
+              <img src="img/illust6.jpg" />
+            </div>
+          </li>
+        </ul>
+      </section>
+      <footer>
+        <ul>
+          <li class="phone">
+            <div class="tagOrange">Phone</div>
+            <div class="img img1">
+              <div class="front"></div>
+              <div class="back"></div>
+            </div>
+            <p>010-7340-7175</p>
+          </li>
+          <li class="mail">
+            <div class="tagOrange">E-Mail</div>
+            <div class="img img2">
+              <div class="front"></div>
+              <div class="back"></div>
+            </div>
+            <p>betteristobow@gmail.com</p>
+          </li>
+          <li class="blog">
+            <a href="https://blog.naver.com/beclassic7110">
+              <div class="tagOrange">Blog</div>
+              <div class="img img3">
+                <div class="front"></div>
+                <div class="back"></div>
+              </div>
+              <p>https://blog.naver.com/beclassic7110</p></a
+            >
+          </li>
+        </ul>
+      </footer>
+    </div>
+
+    <script>
+      gsap.registerPlugin(ScrollTrigger);
+    </script>
+  </body>
+</html>
