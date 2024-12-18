@@ -28,9 +28,9 @@ $(function () {
   });
 
   //헤더 클릭 이동
-  $("#navi li").on("click", function () {
-    num = $(this).index();
-    let target = $("#container section").eq(num).offset().top;
+  $("header li").on("click", function () {
+    let i = $(this).index();
+    let target = $("#container section").eq(i).offset().top;
     $("html, body").stop().animate({ scrollTop: target });
   });
 
@@ -38,9 +38,6 @@ $(function () {
   $("#navi li").on("click", function () {
     num = $(this).index();
     let target = $("#container section").eq(num).offset().top;
-
-    $("#navi li").removeClass("on");
-    $("#navi li").eq(num).addClass("on");
     $("html, body").stop().animate({ scrollTop: target });
   });
 
